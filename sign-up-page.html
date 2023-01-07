@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Page</title>
+  <link rel="stylesheet" href="sign-up.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head> 
+<body>
+    <main>
+        <div class="text-sect">
+           
+            <div class="signup-line">
+                <header>
+                    <img class="kodecamp-img" src="kodecamp.png" >
+                </header>
+                <h1>Sign Up</h1>
+            </div>
+            <div class="name-line">
+                <div class="first-name">
+                    <label for="">First Name </label>
+                    <input type="text" id="first-name" placeholder="your First name" required>
+                </div>
+                <div class="last-name">
+                    <label for="last-name">Last name </label>
+                    <input type="text" id="last-name" placeholder="your Last name" required>
+                </div>
+            </div>
+            <div class="second-line">
+                <div class="email">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" required placeholder="your email">
+                </div>
+                <div class="gender">
+                    <label class="label">Gender</label>
+                    <div class="gender-type">
+                        <input type="radio" class="radio" id="male" name="gender">
+                        <label for="male"> Male</label>
+                        <input type="radio" class="radio" id="female" name="gender">
+                        <label for="female"> Female</label>
+                        <input type="radio" class="radio" id="others" name="gender">
+                        <label for="others"> Others</label>
+                    </div>
+                </div>
+            </div>    
+                <div class="password-line">
+                    <div class="password">
+                        <label for="password">Password </label>
+                        <input type="password"  id="password" pattern="[a-z0-5]{8,}" required>
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password </label>
+                        <input type="password" pattern="[a-z0-5]{8,}" required>
+                    </div>
+                </div>
+            
+            <div class="e-line">
+                <div class="ed-level">
+                    <label for="ed-level">Educational Level </label>
+                        <select name="ed-level" id="ed-level">
+                            <option value=""></option>
+                            <option value="1">Primary</option>
+                            <option value="2">Secondary</option>
+                            <option value="3">Tertiary</option>
+                            <option value="4">Gradute</option>
+                        </select>
+                </div>
+                <div class="exp-line">
+                    <label for="exp-level">Experience Level </label>
+                        <select name="exp-line" id="exp-line">
+                            <option value=""></option>
+                            <option value="1">Just starting</option>
+                            <option value="2">Beginer</option>
+                            <option value="3">Intermidiate</option>
+                            <option value="4">Advanced</option>
+                            <option value="5">Odogu</option>
+                        </select>
+                    
+                </div>
+            </div>
+            <div class="last-line">
+                <label for="more-info">Tell us about you </label>
+                    <textarea name="more-info" id="more-info" cols="30" rows="1"></textarea>
+                
+            </div>
+            <div class="footer">
+            <button class="btn" type="submit">Create Account</button>
+            </div>
+        </div>
+        <div class="img-sect">
+         <div class="img">
+          <div class="img-text">
+           <header class="top">kodeCamp</header>
+           <footer class="bottom">JOIN OUR NEXT COHORT</footer>
+          </div>
+         </div>
+        </div>
+    </main>
+</body>
+</html>
