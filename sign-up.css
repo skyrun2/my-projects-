@@ -35,6 +35,10 @@ header{
     
 
 }
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
 label{
     display: block;
     /* background-color: #086DB8; */
